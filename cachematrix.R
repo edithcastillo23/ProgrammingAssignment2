@@ -58,41 +58,4 @@ cacheSolve <- function(x,...) {
 
 
 #----------------------------------------------------------
-# Using function makeCacheMatrix(x)
-#----------------------------------------------------------
-
-#x <- matrix(c(4,3,3,2), nrow=2, ncol=2)
-##dimension_x = nrow(x)
-##identity_matrix = diag(dimension_x)
-##nrow(x)
-##ncol(x)
-##solve(x,identity_matrix)
-
-#a <- makeCacheMatrix(x)    #creates a list of 4 functions
-##print(x)
-##class(x)
-##print(a)    #will print the list
-##class(a)    #returns that a is a list
-
-##To call the functions in the list:
-##class(a$get)  #will print that a$get is a function
-##a$get()       #returns matrix created above
-##a$set(Identity)  #setting the matrix with the $set function
-##a$get()
-##a$setInverseMatrix(8)   #could set the InverseMatrix here
-##a$getInverseMatrix()
-##note you can write a number 'cause type wasn't especified
-
-#----------------------------------------------------------
-# Using function cacheSolve
-#----------------------------------------------------------
-
-#b <- cacheSolve(a)    #first call, IS the InverseMatrix
-      		      #calculated for the first time
-##class(b)             #returns that b is a matrix
-#b
-
-#b <- cacheSolve(a)    #InverseMatrix calculated before, will
-     		     #return value previously calculated
-#b
 
